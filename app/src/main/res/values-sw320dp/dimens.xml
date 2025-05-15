@@ -6,4 +6,12 @@
     <dimen name="textInput_height">53sp</dimen>
     <dimen name="primary_button">18sp</dimen>
     <dimen name="cancel_button">15sp</dimen>
+    <dimen name="common_bubble_background_width">296sp</dimen>
+    <dimen name="common_bubble_background_height">331sp</dimen>
+    <dimen name="common_bubble_background_width2">245sp</dimen>
+    <dimen name="common_bubble_background_height2">272sp</dimen>
+    <dimen name="common_bubble4_background_width">236sp</dimen>
+    <dimen name="common_bubble4_background_height">310sp</dimen>
+    <dimen name="common_bubble3_background_width">69sp</dimen>
+    <dimen name="common_bubble3_background_height">138sp</dimen>
 </resources>

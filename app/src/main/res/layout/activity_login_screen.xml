@@ -133,7 +133,7 @@
             android:backgroundTint="@null"
             android:fontFamily="@font/nunito_sans_light"
             android:padding="12dp"
-            android:text="@string/done"
+            android:text="@string/next"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textSize="@dimen/primary_button"
