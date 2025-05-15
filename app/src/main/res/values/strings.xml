@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">e-commerce</string>
+    <string name="good_to_see_you_back">Good to see you back! ♥︎</string>
+    <string name="done">Done</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="login_background">login background</string>
+    <string name="cancel">Cancel</string>
 </resources>
