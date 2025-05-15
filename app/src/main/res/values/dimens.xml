@@ -6,4 +6,10 @@
     <dimen name="textInput_height">53sp</dimen>
     <dimen name="primary_button">18sp</dimen>
     <dimen name="cancel_button">15sp</dimen>
+    <dimen name="launch_cart_image_height">90sp</dimen>
+    <dimen name="launch_cart_image_width">80sp</dimen>
+    <dimen name="launch_cart_cirle">130sp</dimen>
+    <dimen name="launch_extra_text_width">250dp</dimen>
+    <dimen name="lets_started_button_height">61dp</dimen>
+    <dimen name="lets_started_button_text">16sp</dimen>
 </resources>
