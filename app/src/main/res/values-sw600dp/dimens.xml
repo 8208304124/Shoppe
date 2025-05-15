@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="font_title">104sp</dimen>
+    <dimen name="font_body">35sp</dimen>
+    <dimen name="textInput">25sp</dimen>
+    <dimen name="textInput_height">80sp</dimen>
+    <dimen name="primary_button">35sp</dimen>
+    <dimen name="cancel_button">25sp</dimen>
+    <dimen name="launch_cart_image_height">140sp</dimen>
+    <dimen name="launch_cart_image_width">130sp</dimen>
+    <dimen name="launch_cart_cirle">200sp</dimen>
+    <dimen name="launch_extra_text_width">500dp</dimen>
+    <dimen name="lets_started_button_height">87dp</dimen>
+    <dimen name="lets_started_button_text">20sp</dimen>
     <dimen name="font_title">60sp</dimen>
     <dimen name="font_body">25sp</dimen>
     <dimen name="textInput">20sp</dimen>

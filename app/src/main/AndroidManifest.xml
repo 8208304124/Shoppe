@@ -30,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.createAccount.CreateAccount"
+            android:theme="@style/Theme.Ecommerce"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
