@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
 
         val alreadyHaveAccountTxt = findViewById<TextView>(R.id.textView4)
         val arrowIcon = findViewById<ImageView>(R.id.imageView8)
-        val letsGetStartedBtn = findViewById<Button>(R.id.button)
+        val letsGetStartedBtn = findViewById<Button>(R.id.button2)
 
         val navigateToLogin = {
             val intent = Intent(this, LoginScreen::class.java)

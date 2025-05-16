@@ -10,4 +10,8 @@
     <string name="email_btn">Email</string>
     <string name="sms_btn">SMS</string>
     <string name="send_again">Send Again</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="toggle_password_visibility">Toggle Password Visibility</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
 </resources>

@@ -7,6 +7,12 @@
     <dimen name="textInput_height">80sp</dimen>
     <dimen name="primary_button">35sp</dimen>
     <dimen name="cancel_button">25sp</dimen>
+    <dimen name="font_title">60sp</dimen>
+    <dimen name="font_body">25sp</dimen>
+    <dimen name="textInput">17sp</dimen>
+    <dimen name="textInput_height">60sp</dimen>
+    <dimen name="primary_button">25sp</dimen>
+    <dimen name="cancel_button">20sp</dimen>
     <dimen name="launch_cart_image_height">140sp</dimen>
     <dimen name="launch_cart_image_width">130sp</dimen>
     <dimen name="launch_cart_cirle">200sp</dimen>
