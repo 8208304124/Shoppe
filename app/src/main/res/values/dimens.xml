@@ -3,6 +3,7 @@
     <dimen name="font_title">20sp</dimen>
     <dimen name="font_body">19sp</dimen>
     <dimen name="textInput">14sp</dimen>
+    <dimen name="forgot_your_password_txt">12sp</dimen>
     <dimen name="textInput_height">53sp</dimen>
     <dimen name="primary_button">18sp</dimen>
     <dimen name="cancel_button">15sp</dimen>
@@ -20,4 +21,15 @@
     <dimen name="common_bubble4_background_height">310sp</dimen>
     <dimen name="common_bubble3_background_width">69sp</dimen>
     <dimen name="common_bubble3_background_height">138sp</dimen>
+    <dimen name="profile_image_width">130dp</dimen>
+    <dimen name="profile_image_height">110dp</dimen>
+    <dimen name="enter_password_font_title">30sp</dimen>
+    <dimen name="password_recovery_blue_img_width">249dp</dimen>
+    <dimen name="password_recovery_blue_img_height">137dp</dimen>
+    <dimen name="password_recovery_grey_img_width">311dp</dimen>
+    <dimen name="password_recovery_grey_img_height">189dp</dimen>
+    <dimen name="like_to_restore_password_txt">19sp</dimen>
+    <dimen name="radio_btn_width">199dp</dimen>
+    <dimen name="radio_btn_height">40dp</dimen>
+    <dimen name="radio_btn_txt_size">15sp</dimen>
 </resources>

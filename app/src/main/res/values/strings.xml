@@ -7,4 +7,7 @@
     <string name="login_background">login background</string>
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
+    <string name="email_btn">Email</string>
+    <string name="sms_btn">SMS</string>
+    <string name="send_again">Send Again</string>
 </resources>
