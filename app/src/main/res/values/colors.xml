@@ -11,4 +11,7 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="smokeGrey">#EEEEEE</color>
     <color name="primaryButton">#004CFF</color>
+    <color name="sms_blue_button">#E5EBFC</color>
+    <color name="email_pink_button">#FFEBEB</color>
+
 </resources>

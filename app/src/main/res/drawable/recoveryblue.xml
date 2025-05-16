@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/password_recovery_blue_img_width"
+    android:height="@dimen/password_recovery_blue_img_height"
+    android:viewportWidth="249"
+    android:viewportHeight="137">
+  <path
+      android:pathData="M403.38,-57.79C529.79,42.12 306.22,140.38 195.04,136.49C83.86,132.61 -3.12,39.33 0.76,-71.85C4.64,-183.03 97.92,-270.02 209.1,-266.13C320.28,-262.25 276.98,-157.7 403.38,-57.79Z"
+      android:fillColor="#004BFE"/>
+</vector>

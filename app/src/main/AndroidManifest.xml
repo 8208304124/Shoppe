@@ -13,6 +13,10 @@
         android:theme="@style/Theme.Ecommerce"
         tools:targetApi="31">
         <activity
+            android:name=".ui.smsPasswordRecovery.sms_password_recovery"
+            android:exported="false" />
+        <activity
+            android:name=".ui.passwordrecovery.password_recovery"
             android:name=".ui.createAccount.CreateAccount"
             android:exported="false" />
         <activity
@@ -33,6 +37,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.createAccount.CreateAccount"
+            android:exported="false"
+            android:theme="@style/Theme.Ecommerce" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
