@@ -16,9 +16,6 @@
         android:theme="@style/Theme.Ecommerce"
         tools:targetApi="31">
         <activity
-            android:name=".ui.lets_start_cards.lets_start_cards"
-            android:exported="false" />
-        <activity
             android:name=".ui.setup_new_password.setup_new_password"
             android:exported="false" />
         <activity

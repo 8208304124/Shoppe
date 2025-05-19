@@ -8,6 +8,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.example.e_commerce.R
 import com.example.e_commerce.ui.lets_start_cards.lets_start_cards
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
 class setup_new_password : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,9 +20,10 @@ class setup_new_password : AppCompatActivity() {
         val cancelBtn = findViewById<TextView>(R.id.button3)
 
         button.backgroundTintList = null
-        button.setOnClickListener {
-            val intent = Intent(this, lets_start_cards::class.java)
-            startActivity(intent)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
         }
         cancelBtn.setOnClickListener {
             finish()
