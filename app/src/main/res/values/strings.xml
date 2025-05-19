@@ -14,4 +14,6 @@
     <string name="toggle_password_visibility">Toggle Password Visibility</string>
     <string name="password">Password</string>
     <string name="create_account">Create Account</string>
+    <string name="how_you_would_like_to_restore_your_password">How you would like to restore your password?</string>
+    <string name="password_recovery">Password Recovery</string>
 </resources>

@@ -6,10 +6,8 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.WindowCompat
 import com.example.e_commerce.R
-import com.example.e_commerce.ui.login.EnterPassword
-import com.example.e_commerce.ui.smsPasswordRecovery.sms_password_recovery
+import com.example.e_commerce.ui.smsPasswordRecovery.Sms_password_recovery
 
 class password_recovery : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +18,7 @@ class password_recovery : AppCompatActivity() {
         button.backgroundTintList = null
         val cancelBtn = findViewById<TextView>(R.id.button3)
         button.setOnClickListener {
-            val intent = Intent(this, sms_password_recovery::class.java)
+            val intent = Intent(this, Sms_password_recovery::class.java)
             startActivity(intent)
         }
         cancelBtn.setOnClickListener {
