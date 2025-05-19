@@ -20,7 +20,10 @@
             android:name=".BottomNavTabs"
             android:exported="false" />
         <activity
-            android:name=".ui.smsPasswordRecovery.sms_password_recovery"
+            android:name=".ui.setup_new_password.setup_new_password"
+            android:exported="false" />
+        <activity
+            android:name=".ui.smsPasswordRecovery.Sms_password_recovery"
             android:exported="false" />
         <activity
             android:name=".ui.passwordrecovery.password_recovery"

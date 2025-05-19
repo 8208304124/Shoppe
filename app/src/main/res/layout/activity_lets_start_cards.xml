@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.lets_start_cards.lets_start_cards">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/login_background"
+        android:src="@drawable/bubble_02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/login_background"
+        android:src="@drawable/bubble_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/rectangeView"
+        android:layout_width="@dimen/lets_start_card_rect_width"
+        android:layout_height="@dimen/lets_start_card_rect_height"
+
+        android:background="@drawable/lets_start_card_rectangle"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/otp_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_img_height"
+                android:translationZ="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/girlshoppingbag1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/raleway_bold"
+                android:text="Hello"
+                android:textColor="?attr/android:text"
+                android:textSize="@dimen/enter_password_font_title"
+                android:translationZ="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/rectangeView"
+                app:layout_constraintStart_toStartOf="@+id/rectangeView"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:fontFamily="@font/nunito_sans"
+                android:gravity="center"
+                android:text="@string/lorem_ipsum_txt"
+                android:textColor="?attr/android:text"
+                android:textSize="@dimen/font_body"
+                android:translationZ="10dp"
+                android:layout_marginHorizontal="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangeView"
+                app:layout_constraintHorizontal_bias="0.34"
+                app:layout_constraintStart_toStartOf="@+id/rectangeView"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                app:layout_constraintVertical_bias="0.449" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/otp_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/dot1"
+            android:layout_width="@dimen/otp_dots"
+            android:layout_height="@dimen/otp_dots"
+            android:layout_margin="8dp"
+            android:background="@drawable/otp_dot"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAccessibility="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text=""
+            android:textColor="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/dot2"
+            android:layout_width="@dimen/otp_dots"
+            android:layout_height="@dimen/otp_dots"
+            android:layout_margin="8dp"
+            android:background="@drawable/otp_dot"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAccessibility="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text=""
+            android:textColor="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/dot3"
+            android:layout_width="@dimen/otp_dots"
+            android:layout_height="@dimen/otp_dots"
+            android:layout_margin="8dp"
+            android:background="@drawable/otp_dot"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAccessibility="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text=""
+            android:textColor="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/dot4"
+            android:layout_width="@dimen/otp_dots"
+            android:layout_height="@dimen/otp_dots"
+            android:layout_margin="8dp"
+            android:background="@drawable/otp_dot"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAccessibility="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text=""
+            android:textColor="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
