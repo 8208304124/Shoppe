@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lets_start_cards">
+    tools:context=".ui.lets_start_cards.lets_start_cards">
 
     <ImageView
         android:id="@+id/imageView2"

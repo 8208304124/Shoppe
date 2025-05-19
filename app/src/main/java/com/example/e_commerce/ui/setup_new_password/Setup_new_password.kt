@@ -6,11 +6,8 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.e_commerce.R
-import com.example.e_commerce.lets_start_cards
-import com.example.e_commerce.ui.smsPasswordRecovery.Sms_password_recovery
+import com.example.e_commerce.ui.lets_start_cards.lets_start_cards
 
 class setup_new_password : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
