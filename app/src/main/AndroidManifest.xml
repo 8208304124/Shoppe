@@ -17,7 +17,6 @@
             android:exported="false" />
         <activity
             android:name=".ui.passwordrecovery.password_recovery"
-            android:name=".ui.createAccount.CreateAccount"
             android:exported="false" />
         <activity
             android:name=".ui.login.EnterPassword"

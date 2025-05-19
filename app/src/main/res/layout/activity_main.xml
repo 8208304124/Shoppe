@@ -87,7 +87,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_marginEnd="16dp"
-                android:alpha="0.6"
                 android:fontFamily="@font/raleway_bold"
                 android:gravity="center"
                 android:text="I already have an account"
