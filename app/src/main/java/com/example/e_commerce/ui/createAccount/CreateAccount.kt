@@ -32,6 +32,7 @@ class CreateAccount : AppCompatActivity() {
     private lateinit var mobileNoText: EditText
     private lateinit var toggleIcon: ImageView
     private lateinit var button: Button
+    private lateinit var button3: TextView
     private lateinit var dottedCircle: FrameLayout
     private lateinit var imageView: ImageView
 
@@ -65,6 +66,9 @@ class CreateAccount : AppCompatActivity() {
             val mobile = mobileNoText.text.toString()
             onClickToSubmit(email, password, mobile, base64Image)
         }
+        button3.setOnClickListener {
+            finish()
+        }
     }
 
     private fun initViews() {
@@ -73,6 +77,7 @@ class CreateAccount : AppCompatActivity() {
         mobileNoText = findViewById(R.id.mobileNoText)
         toggleIcon = findViewById(R.id.toggleIcon)
         button = findViewById(R.id.button2)
+        button3 = findViewById(R.id.cancel_button)
         dottedCircle = findViewById(R.id.dottedCircle)
         imageView = findViewById(R.id.cameraIcon)
         button.backgroundTintList = null
