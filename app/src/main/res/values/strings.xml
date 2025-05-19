@@ -16,5 +16,6 @@
     <string name="create_account">Create Account</string>
     <string name="how_you_would_like_to_restore_your_password">How you would like to restore your password?</string>
     <string name="password_recovery">Password Recovery</string>
+    <string name="lorem_ipsum_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non consectetur turpis. Morbi eu eleifend lacus.</string>
     <string name="BASE_URL">http://10.0.2.2:3000/api/</string>
 </resources>
