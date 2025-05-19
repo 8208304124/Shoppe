@@ -32,4 +32,8 @@
     <dimen name="radio_btn_width">299dp</dimen>
     <dimen name="radio_btn_height">60dp</dimen>
     <dimen name="radio_btn_txt_size">25sp</dimen>
+    <dimen name="send_again_btn">572dp</dimen>
+    <dimen name="otp_dots">36dp</dimen>
+    <dimen name="radio_btn_size">38dp</dimen>
+    <dimen name="radio_btn_margin_right">10dp</dimen>
 </resources>
