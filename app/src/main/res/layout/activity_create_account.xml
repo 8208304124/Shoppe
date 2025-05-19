@@ -141,7 +141,7 @@
             android:textSize="@dimen/primary_button" />
 
         <TextView
-            android:id="@+id/button3"
+            android:id="@+id/cancel_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/nunito_sans_light"
