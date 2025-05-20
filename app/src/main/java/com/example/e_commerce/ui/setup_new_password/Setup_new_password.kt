@@ -10,6 +10,7 @@ import com.example.e_commerce.R
 import com.example.e_commerce.ui.lets_start_cards.lets_start_cards
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.e_commerce.ui.smsPasswordRecovery.Sms_password_recovery
 
 class setup_new_password : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,11 +21,7 @@ class setup_new_password : AppCompatActivity() {
         val cancelBtn = findViewById<TextView>(R.id.button3)
 
         button.backgroundTintList = null
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
         cancelBtn.setOnClickListener {
             finish()
         }

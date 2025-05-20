@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/rectangeView"
+        android:layout_width="@dimen/lets_start_card_rect_width"
+        android:layout_height="@dimen/lets_start_card_rect_height"
+        android:background="@drawable/lets_start_card_rectangle"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_img_height"
+                android:scaleType="fitXY"
+                android:translationZ="10dp"
+                app:srcCompat="@drawable/girlshoppingbag1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_bold"
+                    android:text="Hello"
+                    android:textAlignment="center"
+                    android:textColor="?attr/android:text"
+                    android:textSize="@dimen/enter_password_font_title"
+                    android:translationZ="10dp"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/nunito_sans"
+                    android:gravity="center"
+                    android:text="@string/lorem_ipsum_txt"
+                    android:textColor="?attr/android:text"
+                    android:textSize="@dimen/font_body" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp" />
+                <Button
+                    android:id="@+id/lets_start_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="55dp"
+                    android:background="@drawable/secondary_button_background"
+                    android:backgroundTint="@null"
+                    android:fontFamily="@font/nunito_sans_light"
+                    android:text="@string/lets_start"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/primary_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
