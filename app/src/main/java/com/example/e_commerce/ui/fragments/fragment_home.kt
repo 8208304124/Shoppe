@@ -42,8 +42,6 @@ class fragment_home : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val button2: Button = view.findViewById(R.id.button2)
-        button2.backgroundTintList = null
     }
     companion object {
         /**
