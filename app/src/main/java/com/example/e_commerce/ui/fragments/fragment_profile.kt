@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.e_commerce.R
 
@@ -37,7 +38,12 @@ class fragment_profile : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        val button2: Button = view.findViewById(R.id.button2)
+        button2.backgroundTintList = null
+    }
     companion object {
         /**
          * Use this factory method to create a new instance of

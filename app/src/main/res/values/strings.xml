@@ -22,4 +22,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lets_start">Let\'s Start</string>
     <string name="my_activity">My Activity</string>
+    <string name="announcement">Announcement</string>
+    <string name="lorem_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit luctus libero ac vulputate.</string>
 </resources>

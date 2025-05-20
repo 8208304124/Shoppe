@@ -3,12 +3,231 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context=".ui.fragments.fragment_profile">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:padding="20dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:gravity="center_vertical">
+
+                    <FrameLayout
+                        android:id="@+id/circleView"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/lets_get_started_ovalshape"
+                        android:elevation="2dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/man_user_circle_icon" />
+                    </FrameLayout>
+
+                    <Space
+                        android:layout_width="16dp"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_activity_button_background"
+                        android:backgroundTint="@null"
+                        android:fontFamily="@font/raleway_medium"
+                        android:text="@string/my_activity"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/textInput" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:padding="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/vouchers" />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:padding="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/top_menu" />
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:padding="5dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/settings" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Hello, Romina -->
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/raleway_bold"
+                android:text="Hello, Romina!"
+                android:textColor="?attr/android:text"
+                android:textSize="@dimen/radio_btn_size" />
+
+            <!-- Announcement Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/announcement_background"
+                android:orientation="horizontal"
+                android:padding="15dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_bold"
+                        android:text="@string/announcement"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/lets_started_button_text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito_sans"
+                        android:text="@string/lorem_message"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/forgot_your_password_txt" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/button" />
+            </LinearLayout>
+
+            <!-- My Orders -->
+            <TextView
+                android:id="@+id/my_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/raleway_bold"
+                android:text="My Orders"
+                android:textColor="?attr/android:text"
+                android:textSize="@dimen/dashboard_title" />
+
+            <!-- Order Filter Buttons -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_orders_button"
+                        android:fontFamily="@font/raleway_medium"
+                        android:paddingHorizontal="20dp"
+                        android:paddingVertical="8dp"
+                        android:text="Track Order"
+                        android:textColor="?attr/actionButtonStyle"
+                        android:textSize="@dimen/lets_started_button_text" />
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_orders_button"
+                        android:paddingHorizontal="20dp"
+                        android:paddingVertical="8dp"
+                        android:text="Cancelled"
+                        android:textColor="?attr/actionButtonStyle"
+                        android:textSize="@dimen/lets_started_button_text" />
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_orders_button"
+                        android:paddingHorizontal="20dp"
+                        android:paddingVertical="8dp"
+                        android:text="Completed"
+                        android:textColor="?attr/actionButtonStyle"
+                        android:textSize="@dimen/lets_started_button_text" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <!-- Stories -->
+            <TextView
+                android:id="@+id/stories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/raleway_bold"
+                android:text="Stories"
+                android:textColor="?attr/android:text"
+                android:textSize="@dimen/dashboard_title" />
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
