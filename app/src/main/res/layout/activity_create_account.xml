@@ -65,7 +65,7 @@
 
         </FrameLayout>
         <EditText
-            android:id="@+id/passwordText2"
+            android:id="@+id/emailText"
             android:layout_width="match_parent"
             android:layout_height="@dimen/textInput_height"
             android:layout_marginTop="10dp"

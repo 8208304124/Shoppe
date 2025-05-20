@@ -1,10 +1,14 @@
-package com.example.e_commerce
+package com.example.e_commerce.ui.bottomTabs
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.e_commerce.R
+import com.example.e_commerce.ui.fragments.fragment_cart
+import com.example.e_commerce.ui.fragments.fragment_filter
+import com.example.e_commerce.ui.fragments.fragment_home
+import com.example.e_commerce.ui.fragments.fragment_profile
+import com.example.e_commerce.ui.fragments.fragment_wishlist
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class BottomNavTabs : AppCompatActivity() {
