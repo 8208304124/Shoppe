@@ -72,7 +72,7 @@ class CreateAccount : AppCompatActivity() {
     }
 
     private fun initViews() {
-        emailText = findViewById(R.id.emailText)
+        emailText = findViewById(R.id.passwordText2)
         passwordField = findViewById(R.id.passwordText)
         mobileNoText = findViewById(R.id.mobileNoText)
         toggleIcon = findViewById(R.id.toggleIcon)
