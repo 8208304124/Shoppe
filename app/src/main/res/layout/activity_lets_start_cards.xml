@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:fitsSystemWindows="false"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.lets_start_cards.lets_start_cards">
@@ -29,72 +30,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <FrameLayout
-        android:id="@+id/rectangeView"
-        android:layout_width="@dimen/lets_start_card_rect_width"
-        android:layout_height="@dimen/lets_start_card_rect_height"
 
-        android:background="@drawable/lets_start_card_rectangle"
-        android:elevation="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/otp_container"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/dots_layout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/card_img_height"
-                android:translationZ="10dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/girlshoppingbag1" />
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:fontFamily="@font/raleway_bold"
-                android:text="Hello"
-                android:textColor="?attr/android:text"
-                android:textSize="@dimen/enter_password_font_title"
-                android:translationZ="10dp"
-                app:layout_constraintEnd_toEndOf="@+id/rectangeView"
-                app:layout_constraintStart_toStartOf="@+id/rectangeView"
-                android:textAlignment="center"/>
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="134dp"
-                android:fontFamily="@font/nunito_sans"
-                android:gravity="center"
-                android:text="@string/lorem_ipsum_txt"
-                android:textColor="?attr/android:text"
-                android:textSize="@dimen/font_body"
-                android:translationZ="10dp"
-                android:layout_marginHorizontal="30dp"
-                app:layout_constraintBottom_toBottomOf="@+id/rectangeView"
-                app:layout_constraintHorizontal_bias="0.34"
-                app:layout_constraintStart_toStartOf="@+id/rectangeView"
-                app:layout_constraintTop_toBottomOf="@+id/textView13"
-                app:layout_constraintVertical_bias="0.449" />
-        </LinearLayout>
-    </FrameLayout>
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/otp_container"
+        android:id="@+id/dots_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="45dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"

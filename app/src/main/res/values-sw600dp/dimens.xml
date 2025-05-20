@@ -35,7 +35,7 @@
     <dimen name="radio_btn_txt_size">25sp</dimen>
     <dimen name="send_again_btn">572dp</dimen>
     <dimen name="otp_dots">36dp</dimen>
-    <dimen name="radio_btn_size">38dp</dimen>
+    <dimen name="radio_btn_size">34dp</dimen>
     <dimen name="radio_btn_margin_right">10dp</dimen>
     <dimen name="lets_start_card_rect_width">526dp</dimen>
     <dimen name="lets_start_card_rect_height">914dp</dimen>

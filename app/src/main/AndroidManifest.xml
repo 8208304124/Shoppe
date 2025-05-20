@@ -36,15 +36,19 @@
             android:exported="false"
             android:theme="@style/Theme.Ecommerce" />
         <activity
-            android:name=".ui.letsStarted.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Ecommerce">
+            android:name=".ui.lets_start_cards.lets_start_cards"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.letsStarted.MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Ecommerce">
         </activity>
         <activity
             android:name=".ui.createAccount.CreateAccount"

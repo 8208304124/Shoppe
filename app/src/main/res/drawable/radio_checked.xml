@@ -1,7 +1,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:width="@dimen/radio_btn_size" android:height="@dimen/radio_btn_size">
         <shape android:shape="oval">
-            <solid android:color="#CCCCCC" />
+            <solid android:color="@color/primaryButton" />
         </shape>
     </item>
 </layer-list>
