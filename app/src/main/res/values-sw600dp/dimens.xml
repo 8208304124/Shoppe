@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--  Fonts Sizes-->
     <dimen name="forgot_your_password_txt">20sp</dimen>
     <dimen name="font_title">60sp</dimen>
     <dimen name="font_body">25sp</dimen>
     <dimen name="textInput">17sp</dimen>
     <dimen name="product_price_size">23sp</dimen>
     <dimen name="dashboard_title">30sp</dimen>
+    <dimen name="new_items_text">17sp</dimen>
+
+
+
+    <!--    Sizes dimensions -->
     <dimen name="textInput_height">60sp</dimen>
     <dimen name="primary_button">25sp</dimen>
     <dimen name="cancel_button">20sp</dimen>
