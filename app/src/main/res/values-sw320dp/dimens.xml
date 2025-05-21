@@ -8,6 +8,7 @@
     <dimen name="dashboard_title">21sp</dimen>
     <dimen name="forgot_your_password_txt">12sp</dimen>
     <dimen name="new_items_text">17sp</dimen>
+    <dimen name="lets_started_button_text">16sp</dimen>
     <dimen name="text_size_S">21sp</dimen>
     <dimen name="radio_btn_txt_size">15sp</dimen>
     <dimen name="product_name_txt">16sp</dimen>
@@ -24,7 +25,7 @@
     <dimen name="launch_cart_cirle">130sp</dimen>
     <dimen name="launch_extra_text_width">250dp</dimen>
     <dimen name="lets_started_button_height">61dp</dimen>
-    <dimen name="lets_started_button_text">16sp</dimen>
+
     <dimen name="common_bubble_background_width">296sp</dimen>
     <dimen name="common_bubble_background_height">331sp</dimen>
     <dimen name="common_bubble_background_width2">245sp</dimen>
