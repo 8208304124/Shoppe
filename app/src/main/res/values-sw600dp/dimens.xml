@@ -4,6 +4,7 @@
     <dimen name="font_title">60sp</dimen>
     <dimen name="font_body">25sp</dimen>
     <dimen name="textInput">17sp</dimen>
+    <dimen name="product_price_size">23sp</dimen>
     <dimen name="dashboard_title">30sp</dimen>
     <dimen name="textInput_height">60sp</dimen>
     <dimen name="primary_button">25sp</dimen>
@@ -41,4 +42,9 @@
     <dimen name="lets_start_card_rect_height">914dp</dimen>
     <dimen name="card_img_height">500dp</dimen>
     <dimen name="card_radius">45dp</dimen>
+    <dimen name="text_size_S">31dp</dimen>
+    <dimen name="right_arrow_size">40dp</dimen>
+    <dimen name="img_outer_circles_size">110dp</dimen>
+    <dimen name="product_wishlist_img_width">220dp</dimen>
+    <dimen name="product_wishlist_img_height">210dp</dimen>
 </resources>
