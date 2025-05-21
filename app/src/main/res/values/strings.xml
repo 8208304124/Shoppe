@@ -26,4 +26,7 @@
     <string name="recently_viewed">Recently viewed</string>
     <string name="announcement">Announcement</string>
     <string name="lorem_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit luctus libero ac vulputate.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet consectetur.</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="see_all">See All</string>
 </resources>

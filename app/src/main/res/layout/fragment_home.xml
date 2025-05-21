@@ -42,7 +42,7 @@
                         android:scaleType="centerCrop"
                         android:clipChildren="false"
                         android:clipToPadding="false"
-                        android:src="@drawable/Mask_group" />
+                        android:src="@drawable/mask_group" />
                 </androidx.cardview.widget.CardView>
 
             </FrameLayout>
