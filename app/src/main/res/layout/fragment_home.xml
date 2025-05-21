@@ -1,71 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:layout_width="170sp"
-        android:layout_height="wrap_content"
-        android:clipChildren="false"
-    android:padding="10sp"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
         android:clipToPadding="false"
-        android:orientation="vertical">
+        android:scrollbars="vertical" />
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="150sp"
-            android:layout_height="150sp"
-            card_view:cardCornerRadius="10dp"
-            card_view:cardElevation="6dp"
-            android:clipChildren="false"
-            android:clipToPadding="false"
-            card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardPreventCornerOverlap="false">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="8dp"
-                android:clipChildren="false"
-                android:clipToPadding="false"
-                android:background="@android:color/white">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    card_view:cardCornerRadius="10dp"
-                    card_view:cardElevation="0dp"
-                    android:clipChildren="false"
-                    android:clipToPadding="false"
-                    card_view:cardBackgroundColor="@android:color/white"
-                    card_view:cardPreventCornerOverlap="false">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:scaleType="centerCrop"
-                        android:clipChildren="false"
-                        android:clipToPadding="false"
-                        android:src="@drawable/Mask_group" />
-                </androidx.cardview.widget.CardView>
-
-            </FrameLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- Title (link style) -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/nunito_sans"
-        android:text="Lorem ipsum dolor sit amet consectetur."
-        android:textColor="?attr/android:text"
-        android:textSize="@dimen/lets_started_button_text" />
-
-        <!-- Price -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/raleway_bold"
-        android:text="$17.00"
-        android:textColor="?attr/android:text"
-        android:textSize="20sp" />
-    </LinearLayout>
+</LinearLayout>
