@@ -5,6 +5,7 @@
     <dimen name="font_body">25sp</dimen>
     <dimen name="textInput">17sp</dimen>
     <dimen name="product_price_size">23sp</dimen>
+    <dimen name="dashboard_title">30sp</dimen>
     <dimen name="textInput_height">60sp</dimen>
     <dimen name="primary_button">25sp</dimen>
     <dimen name="cancel_button">20sp</dimen>
