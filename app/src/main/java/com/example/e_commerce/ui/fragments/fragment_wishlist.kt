@@ -4,6 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.widget.ImageView
+import android.widget.LinearLayout
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.example.e_commerce.R
 
@@ -21,7 +25,6 @@ class fragment_wishlist : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -36,6 +39,46 @@ class fragment_wishlist : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_wishlist, container, false)
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val container = view.findViewById<LinearLayout>(R.id.frameContainer)
+
+        val userMap = mapOf(
+            "sakshi" to R.drawable.circle_girl_5,
+            "mansi" to R.drawable.circle_girl_2,
+            "bishu" to R.drawable.circle_girl_4,
+            "seema" to R.drawable.circle_girl_3,
+            "priya" to R.drawable.circle_girl_1
+        )
+
+        for ((name, imageRes) in userMap) {
+            val frameLayout = FrameLayout(requireContext()).apply {
+                layoutParams = LinearLayout.LayoutParams(
+                    resources.getDimensionPixelSize(R.dimen.img_outer_circles_size),
+                    resources.getDimensionPixelSize(R.dimen.img_outer_circles_size)
+                ).apply {
+                    marginEnd = 35
+                }
+                background = ContextCompat.getDrawable(requireContext(), R.drawable.lets_get_started_ovalshape)
+                elevation = 6f
+            }
+
+            val imageView = ImageView(requireContext()).apply {
+                layoutParams = FrameLayout.LayoutParams(
+                    FrameLayout.LayoutParams.MATCH_PARENT,
+                    FrameLayout.LayoutParams.MATCH_PARENT
+                ).apply {
+                    setPadding(10, 10, 10, 10)
+                }
+                setImageResource(imageRes)
+                scaleType = ImageView.ScaleType.CENTER_CROP
+            }
+
+            frameLayout.addView(imageView)
+            container.addView(frameLayout)
+        }
     }
 
     companion object {
