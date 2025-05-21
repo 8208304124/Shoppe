@@ -9,6 +9,11 @@
     <dimen name="forgot_your_password_txt">12sp</dimen>
     <dimen name="new_items_text">17sp</dimen>
     <dimen name="lets_started_button_text">16sp</dimen>
+    <dimen name="text_size_S">21sp</dimen>
+    <dimen name="radio_btn_txt_size">15sp</dimen>
+    <dimen name="product_name_txt">16sp</dimen>
+    <dimen name="product_data_txt">25sp</dimen>
+
 
 
     <!--    Sizes dimensions -->
@@ -39,7 +44,6 @@
     <dimen name="like_to_restore_password_txt">19sp</dimen>
     <dimen name="radio_btn_width">199dp</dimen>
     <dimen name="radio_btn_height">40dp</dimen>
-    <dimen name="radio_btn_txt_size">15sp</dimen>
     <dimen name="send_again_btn">272dp</dimen>
     <dimen name="otp_dots">18dp</dimen>
     <dimen name="radio_btn_size">24dp</dimen>
@@ -48,9 +52,9 @@
     <dimen name="lets_start_card_rect_height">614dp</dimen>
     <dimen name="card_img_height">338dp</dimen>
     <dimen name="card_radius">35dp</dimen>
-    <dimen name="text_size_S">21dp</dimen>
     <dimen name="right_arrow_size">30dp</dimen>
     <dimen name="img_outer_circles_size">70dp</dimen>
-    <dimen name="product_wishlist_img_width">120dp</dimen>
-    <dimen name="product_wishlist_img_height">110dp</dimen>
+    <dimen name="product_wishlist_img_width">130dp</dimen>
+    <dimen name="product_wishlist_img_height">120dp</dimen>
+    <dimen name="add_product_size">35dp</dimen>
 </resources>
